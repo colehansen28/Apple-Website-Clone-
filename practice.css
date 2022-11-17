@@ -1,0 +1,1057 @@
+/*-------------------------------------------------Main Page / Main CSS -----------------------------------------------*/
+
+:root{
+    --body-background-color: rgb(235, 234, 234);
+    --content-background-color: white;
+    --main-content-box-shadow: 0px 2px 5px rgba(0,0,0, 0.2);
+    --item-hover-color:rgb(124, 124, 124);
+}
+*{
+    font-family: sans-serif;
+    color: rgba(27, 27, 27, 0.8);
+}
+
+
+
+body{
+    background-color: var(--body-background-color);
+    text-align: center;
+
+}
+/*HEADER*/
+#header{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    background-color: var(--content-background-color);
+    padding: .25em;
+    display: block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+}
+
+header .nav-bar #menu{
+    float: left;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    margin-top: .25em;
+    cursor: pointer;
+}
+header .nav-bar #menu:hover{
+    color:var(--item-hover-color)
+}
+
+header .nav-bar #logo{
+  font-size: 1.5em;
+  border: none;
+  background-color: transparent;
+  margin-top: .25em;
+  cursor: pointer;
+}
+
+header .nav-bar #logo:hover{
+    color:var(--item-hover-color)
+}
+
+header .nav-bar #cart{
+    float: right;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    margin-top: .25em;
+    cursor: pointer;
+}
+
+header .nav-bar #cart:hover{
+    color:var(--item-hover-color)
+}
+
+/*END-HEADER*/
+
+/*DROPDOWN MENU*/
+#menu-container{
+    width: 100vw;
+    text-align: center;
+    margin-top: auto;
+    display: none
+}
+.menu-contents{
+    width: 15%;
+}
+#menu-contents div{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.371);
+    padding-top:.2em;
+    padding-bottom: .2em;
+    margin-top: .25em;
+    border-radius: 5px;
+    box-shadow: var(--main-content-box-shadow);
+}
+
+/*Main-Section*/
+
+main{
+    display: block;
+    height: 100%;
+    width:95%;
+    margin-top: 2vh;
+    padding:1em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+main section{
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 5px 6px rgba(0,0,0, 0.4);
+    border-radius: 10px;
+    padding: .25em;
+}
+
+main section p{
+    margin-top: .25em;
+}
+
+/*SECTIONS*/
+
+main #apple{
+    height: 100%;
+    margin-bottom:1em;
+}
+
+main #apple #img-container{
+    margin:auto;
+    width: 75%;
+}
+
+main #apple img{
+    height: auto;
+    width: 100%;
+}
+
+main #apple #learn-more {
+    padding: 1em
+}
+
+main #apple #learn-more button{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--main-content-box-shadow);
+    cursor: pointer;
+}
+
+main #apple #learn-more button:hover{
+    color: var(--item-hover-color);
+    box-shadow: 3px 2px 6px rgba(0,0,0, 0.2);
+}
+
+/*END-APPLE*/
+
+/*IPAD*/
+main #ipad{
+    height: 100%;
+    margin-bottom:1em;
+}
+
+main #ipad #img-container{
+    margin: auto;
+    width: 75%;
+}
+
+main #ipad img{
+    width:100%;
+    height:auto;
+}
+
+main #ipad #learn-more {
+    padding: 1em
+}
+
+main #ipad #learn-more button{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--main-content-box-shadow);
+    cursor: pointer;
+}
+
+main #ipad #learn-more button:hover{
+    color: var(--item-hover-color);
+    box-shadow: 3px 2px 6px rgba(0,0,0, 0.2);
+}
+
+/*END-IPAD*/
+
+/*IPHONE*/
+main #iphone{
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+main #iphone #img-container{
+    margin: auto;
+    width: 75%;
+}
+main #iphone img{
+    width:100%;
+    height:auto;
+}
+
+main #iphone #learn-more {
+    padding: 1em
+}
+
+main #iphone #learn-more button{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--main-content-box-shadow);
+    cursor: pointer;
+}
+
+main #iphone #learn-more button:hover{
+    color: var(--item-hover-color);
+    box-shadow: 3px 2px 6px rgba(0,0,0, 0.2);
+}
+
+/*END-IPHONE*/
+
+main #watch{
+    height: 100%;
+    margin-bottom:1em;
+}
+
+main #watch #img-container{
+    margin: auto;
+    width: 75%;
+}
+
+main #watch img{
+    width:100%;
+    height:auto;
+}
+
+main #watch #learn-more {
+    padding: 1em
+}
+
+main #watch #learn-more button{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--main-content-box-shadow);
+    cursor: pointer;
+}
+
+main #watch #learn-more button:hover{
+    color: var(--item-hover-color);
+    box-shadow: 3px 2px 6px rgba(0,0,0, 0.2);
+}
+
+/*END-IPHONE*/
+
+/*END-Main-Section*/
+
+/*footer*/
+
+footer{
+    color: rgb(176, 175, 175);
+    font-size: .8em;
+    margin-bottom: 2em;
+}
+footer p{
+    line-height: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------Apple products page----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*apple_products_page-main-content*/
+
+/*Main Product line*/
+
+main #product-line{
+    padding: 1em;
+    margin-bottom: 2em;
+}
+main #product-line div{
+    display: inline-block;
+    width: 30%;
+    margin-left:.25em;
+    margin-right:.25em;
+    border-radius: 10px;
+    box-shadow: var(--main-content-box-shadow);
+}
+
+main #product-line button{
+    margin: 1em;
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--main-content-box-shadow);
+    cursor: pointer;
+}
+
+main #product-line button:hover{
+    color: var(--item-hover-color);
+    box-shadow: 3px 2px 6px rgba(0,0,0, 0.2);
+}
+
+/*Main Product line-END*/
+
+/*Product one*/
+
+main #product-line #one img{
+    width:100%;
+    height:auto;
+}
+
+/*Product one - END*/
+
+/*Product two*/
+
+main #product-line #two img{
+    width:100%;
+    height:auto;
+}
+
+/*Product two - END*/
+
+/*Product three*/
+
+main #product-line #three img{
+    width:100%;
+    height:auto;
+}
+
+main #product-line:last-child #one h1{
+    margin-bottom: 2.2em;
+}
+
+main #product-line:last-child #two h1{
+    margin-bottom: 3.2em;
+}
+
+
+/*Product three - END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------iPad page----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navigation-bar{
+    margin-bottom: 6em;
+}
+
+#navigation-bar span{
+    margin-left:2em;
+    cursor: pointer;
+}
+
+#navigation-bar span:hover{
+    color:rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.85);
+
+}
+
+
+main #main-line-1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-line-1 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 12%;
+    margin-left: 4em;
+}
+
+main #main-line-1 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #main-line-1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main #main-line-1 span{
+    display: inline-block;
+}
+main #main-line-1 p{
+    margin-left: .25em;
+}
+
+main #main-line-2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-line-2 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+main #main-line-2 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #main-line-2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #main-line-2 span{
+    display: inline-block;
+}
+main #main-line-2 p{
+    margin-left: .25em;
+}
+
+main #main-line-2 div:first-child h1{
+    margin-bottom: 1.85em;
+}
+
+main #main-line-2 div:last-child h1{
+    margin-bottom: 1.85em;
+}
+
+main #main-line-3{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-line-3 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+main #main-line-3 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #main-line-3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #main-line-3 span{
+    display: inline-block;
+}
+main #main-line-3 p{
+    margin-left: .25em;
+}
+
+main #main-line-3 div:last-child h1{
+    margin-bottom:1.1em;
+}
+
+
+main #main-line-4{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    margin: auto;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-line-4 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 4em;
+    margin: auto;
+}
+
+main #main-line-4 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #main-line-4 span{
+    display: inline-block;
+}
+main #main-line-4 p{
+    margin-left: .25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------iPhone page----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navigation-bar{
+    margin-bottom: 6em;
+}
+
+#navigation-bar span{
+    margin-left:2em;
+    cursor: pointer;
+}
+
+#navigation-bar span:hover{
+    color:rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.85);
+
+}
+
+
+main #main-row-1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-row-1 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 4em;
+}
+
+main #main-row-1 #product:first-child{
+    margin-left: 0;
+}
+
+main #main-row-1 #product:nth-child(3){
+    margin-left: 0;
+}
+
+main #main-row-1 #product:last-child h1{
+    margin-bottom: 2em;
+}
+
+main #main-row-1 #product:first-child,:nth-child(2):nth-child(3){
+    margin-bottom: 2em;
+}
+
+main #main-row-1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main #main-row-1 span{
+    display: inline-block;
+}
+main #main-row-1 p{
+    margin-left: .25em;
+}
+
+main #main-row-2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-row-2 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+
+main #main-row-2 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #main-row-2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #main-row-2 span{
+    display: inline-block;
+}
+main #main-row-2 p{
+    margin-left: .25em;
+}
+
+main #main-row-2 div:first-child h1{
+    margin-bottom: 1.85em;
+}
+
+main #main-row-2 div:last-child h1{
+    margin-bottom: 1.85em;
+}
+
+main #main-row-3{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-row-3 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+
+main #main-row-3 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #main-row-3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main #main-row-3 span{
+    display: inline-block;
+}
+
+main #main-row-3 p{
+    margin-left: .25em;
+}
+
+main #main-row-3 div:last-child h1{
+    margin-bottom:1.1em;
+}
+
+
+main #main-row-4{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    margin: auto;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #main-row-4 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 4em;
+    margin: auto;
+}
+
+main #main-row-4 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #main-row-4 span{
+    display: inline-block;
+}
+main #main-row-4 p{
+    margin-left: .25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------Apple Watch page----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navigation-bar{
+    margin-bottom: 6em;
+}
+
+#navigation-bar span{
+    margin-left:2em;
+    cursor: pointer;
+}
+
+#navigation-bar span:hover{
+    color:rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.85);
+
+}
+
+
+main #product-line-1{
+   
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 6em;
+    
+}
+main #product-line-1 #product{
+    background-color: transparent;
+    display: inline-block;
+    width: auto;
+    border-radius: 10px;
+}
+
+main #product-line-1 img{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: var(--main-content-box-shadow);
+}
+
+main #product-line-1 span{
+    display: inline-block;
+}
+main #product-line-1 p{
+    margin-left: .25em;
+}
+
+main #product-line-2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #product-line-2 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+main #product-line-2 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #product-line-2 #product:nth-child(2) h1{
+    margin-bottom: 3.2em;
+}
+
+
+main #product-line-2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #product-line-2 span{
+    display: inline-block;
+}
+main #product-line-2 p{
+    margin-left: .25em;
+}
+
+main #product-line-2 div:first-child h1{
+    margin-bottom: 1.85em;
+}
+
+main #product-line-2 div:last-child h1{
+    margin-bottom: 1.85em;
+}
+
+main #product-line-3{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+main #product-line-3 #product{
+    display: inline-block;
+    box-shadow: var(--main-content-box-shadow);
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+main #product-line-3 #product:first-child{
+    margin-left: 0;
+
+}
+
+main #product-line-3 div:first-child h1{
+    margin-bottom: 2.2em;
+}
+
+main #product-line-3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+main #product-line-3:nth-child(2) h1{
+    margin-bottom: 1.85em;
+}
+main #product-line-3 span{
+    display: inline-block;
+}
+main #product-line-3 p{
+    margin-left: .25em;
+}
+
+main #product-line-3 div:last-child h1{
+    margin-bottom:1.85em;
+}
+
+
+main #product-line-4{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 6em;
+    box-shadow: var(--main-content-box-shadow);
+}
+
+main #product-line-4 #product{
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 10px;
+    width: 26%;
+    margin-left: 4em;
+}
+
+main #product-line-4 img{
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: var(--main-content-box-shadow);
+
+}
+
+main #product-line-4 span{
+    display: inline-block;
+}
+main #product-line-4 p{
+    margin-left: .25em;
+}
+
+
